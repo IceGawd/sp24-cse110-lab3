@@ -170,26 +170,37 @@
         <form>
             <fieldset>
                 <legend>Pick your favorite employee of the month:</legend>
+                
                 <input type="radio" id="Boomstick" name="employeeOfTheMonth" value="Boomstick" />
-                <lable for="Boomstick">Boomstick</label>
+                <label for="Boomstick">Boomstick</label>
+                
                 <input type="radio" id="Gold_Rush" name="employeeOfTheMonth" value="Gold_Rush" />
-                <lable for="Gold_Rush">Gold_Rush</label>
+                <label for="Gold_Rush">Gold_Rush</label>
+                
                 <input type="radio" id="The_Diamond_Digger" name="employeeOfTheMonth" value="The_Diamond_Digger" />
-                <lable for="The_Diamond_Digger">The_Diamond_Digger</label>
+                <label for="The_Diamond_Digger">The_Diamond_Digger</label>
+                
                 <input type="radio" id="Ore_Crusher" name="employeeOfTheMonth" value="Ore_Crusher" />
-                <lable for="Ore_Crusher">Ore_Crusher</label>
+                <label for="Ore_Crusher">Ore_Crusher</label>
+                
                 <input type="radio" id="Silver_Streak" name="employeeOfTheMonth" value="Silver_Streak" />
-                <lable for="Silver_Streak">Silver_Streak</label>
+                <label for="Silver_Streak">Silver_Streak</label>
+                
                 <input type="radio" id="The_Platinum_Prospector" name="employeeOfTheMonth" value="The_Platinum_Prospector" />
-                <lable for="The_Platinum_Prospector">The_Platinum_Prospector</label>
+                <label for="The_Platinum_Prospector">The_Platinum_Prospector</label>
+                
                 <input type="radio" id="Gemstone" name="employeeOfTheMonth" value="Gemstone" />
-                <lable for="Gemstone">Gemstone</label>
+                <label for="Gemstone">Gemstone</label>
+                
                 <input type="radio" id="The_Sapphire_Seeker" name="employeeOfTheMonth" value="The_Sapphire_Seeker" />
-                <lable for="The_Sapphire_Seeker">The_Sapphire_Seeker</label>
+                <label for="The_Sapphire_Seeker">The_Sapphire_Seeker</label>
+                
                 <input type="radio" id="The_Marble_Miner" name="employeeOfTheMonth" value="The_Marble_Miner" />
-                <lable for="The_Marble_Miner">The_Marble_Miner</label>
+                <label for="The_Marble_Miner">The_Marble_Miner</label>
+                
                 <input type="radio" id="Coalface" name="employeeOfTheMonth" value="Coalface" />
-                <lable for="Coalface">Coalface</label>
+                <label for="Coalface">Coalface</label>
+                
             </fieldset>
         </form>
         
@@ -201,11 +212,30 @@
 
         <hr>
 
-        <textarea id="w3review" name="w3review" rows="4" cols="50">Write your review here...</textarea>
+        <textarea id="review" name="review" rows="4" cols="50">Write your review here...</textarea>
 
         <hr>
 
-        <textarea id="w3review" name="w3review" rows="4" cols="50">Write your review here...</textarea>
+        <label for="mining-tools">Choose the best mining tool:</label>
+        <input list="mining-tools-options" id="mining-tools" name="mining-tools" />
+
+        <datalist id="mining-tools-options">
+            <option value="Pick"></option>
+            <option value="Drill"></option>
+            <option value="Auger"></option>
+            <option value="Shovel"></option>
+            <option value="Melt"></option>
+        </datalist>
+
+        <hr>
+
+        <strong> What is the scariest animal to meet in the polar caps </strong>
+        <select name="animals" id="animals-select">
+            <option value="">--Please choose an option--</option>
+            <option value="greenland shark">Greenland Shark</option>
+            <option value="leopard seal">Leopard Seal</option>
+            <option value="polar bear">Polar Bear</option>
+        </select>
 
         <hr>
 
