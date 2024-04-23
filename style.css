@@ -30,8 +30,17 @@ body {
     margin: 1em;
     padding: 1rem;
     font-size: 1vh;
-}  
+}
 
+.grid-container, .flex-container {
+    position: static;
+    top: 20px; left: 20px;
+}
+
+#leftbound {
+    position: relative;
+    top: 40px; left: 40px;
+}
 
 @font-face {
     font-family: 'pixantiqua';
