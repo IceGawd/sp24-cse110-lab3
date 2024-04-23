@@ -1,3 +1,7 @@
+.root {
+    --edgeColor: purple
+}
+
 body {
     background-color: color-mix(in srgb, lavender 50%, green 50%) ;
 }
