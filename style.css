@@ -5,3 +5,8 @@
 body {
     background-color: color-mix(in srgb, lavender 50%, green 50%) ;
 }
+
+@font-face {
+    font-family: 'pixantiqua';
+    src: url('PixAntiqua.ttf')  format('truetype'),
+}
