@@ -42,6 +42,14 @@ body {
     top: 40px; left: 40px;
 }
 
+button:hover {
+    color: red;
+}
+
+button:active {
+    background-color: greenyellow;
+}
+
 @font-face {
     font-family: 'pixantiqua';
     src: url('PixAntiqua.ttf')  format('truetype'),
