@@ -6,6 +6,18 @@ body {
     background-color: color-mix(in srgb, lavender 50%, green 50%) ;
 }
 
+.noneDisplay {
+    display: inline-block;
+}
+
+.blockDisplay {
+    display: block;
+}
+
+.noneDisplay .blockDisplay {
+    background-color: orangered;
+}
+
 .flex-container {
     display: flex;
     background-color: red;
