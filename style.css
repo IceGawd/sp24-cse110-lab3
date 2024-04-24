@@ -6,7 +6,7 @@ body {
     background-color: color-mix(in srgb, lavender 50%, green 50%) ;
 }
 
-.noneDisplay {
+[class="noneDisplay"] {
     display: inline-block;
 }
 
@@ -14,13 +14,32 @@ body {
     display: block;
 }
 
-.noneDisplay .blockDisplay {
+.noneDisplay div {
     background-color: orangered;
 }
 
-.flex-container {
+ol > li {
+    border-top: 5px groove gainsboro;
+}
+
+div.flex-container {
     display: flex;
     background-color: red;
+}
+
+h1 ~ h2 {
+    font-weight: bolder;
+    font-style: oblique;
+}
+
+h2 + h3 {
+    font-weight: bold;
+    background-color: darkslategrey;
+    color: whitesmoke;
+}
+
+h1:has(+ h2) {
+    padding: 2rex;
 }
 
 .flex-container > div {
